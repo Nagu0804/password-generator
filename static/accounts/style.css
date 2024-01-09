@@ -1,0 +1,65 @@
+/* Variables */
+
+:root {
+   /* Fonts */
+   --font-rubik: 'Rubik', sans-serif;
+   --font-orbitron: 'Orbitron', sans-serif;
+
+   /* Colors */
+   --color-basic: #ffe4c4;
+   --color-grey: #808080;
+   --color-lightgrey: #d3d3d3;
+   --color-white: #fff;
+   --color-green: #17B169;
+}
+
+.navbar-dark .navbar-brand {
+    color: var(--color-basic);
+    font: 1.875rem var(--font-orbitron);
+    margin: 0 2.5rem;
+    text-shadow: 0.313rem 0.063rem 0.125rem var(--color-grey);
+ }
+
+.signup {
+   border-radius: 0.313rem;
+   border: 0.125rem solid var(--color-basic);
+   font-family: var(--font-rubik);
+   font-size: 80%;
+   margin: 1.25rem auto 0;
+   padding: 0.938rem;
+   width: 31.25rem;
+}
+
+.login {
+   border-radius: 0.313rem;
+   border: 0.125rem solid var(--color-basic);
+   font-family: var(--font-rubik);
+   margin: 3.125rem auto;
+   padding: 2.188rem;
+   width: 31.25rem;
+}
+
+.field-style input{
+   border-radius: 0.313rem;
+   border: 0.063rem solid var(--color-lightgrey);
+   display: block;
+   height: 7%;
+   margin: 0 auto;
+   width: 100%;
+}
+
+.submit-button {
+   background-color: var(--color-green);
+   border-radius: 1.25rem;
+   border: 0.063rem solid var(--color-green);
+   color: var(--color-white);
+   display: block;
+   font-family: var(--font-rubik);
+   height: 7%;
+   margin: 0 auto;
+   width: 18.75rem;
+}
+
+.space {
+   margin-top: 1.25rem;
+}
